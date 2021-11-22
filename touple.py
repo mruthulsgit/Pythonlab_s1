@@ -1,0 +1,5 @@
+s=input("enter a sequence of numbers")
+t=s.split(',')
+t = map(int,t)
+m= tuple(t)
+print(max(m))
