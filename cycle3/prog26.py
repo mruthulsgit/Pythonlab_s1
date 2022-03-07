@@ -1,0 +1,8 @@
+b=int(input("enter the base of the triangle:"))
+h=int(input("enter the height of the triangle:"))
+print("Area of the triangle:",(lambda x,y:.5*x*y)(b,h))
+a=int(input("enter the length of the square:"))
+print("area of the square :",(lambda x:x*x)(a))
+a=int(input("enter the height of the rectangle:"))
+b=int(input("enter the breadth of the rectangle:"))
+print("area of the rectangle:",(lambda x,y:x*y)(a,b))
